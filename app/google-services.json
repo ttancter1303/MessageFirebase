@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1017669883378",
+    "project_id": "message-dee18",
+    "storage_bucket": "message-dee18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017669883378:android:55284915282926e16c876b",
+        "android_client_info": {
+          "package_name": "com.example.message"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017669883378-ief5pbq0bigrpk3khkc1p7t56ch0ooi1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB1kNerFL_w00oqbMCBOXAkNltJJWICYU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1017669883378-ief5pbq0bigrpk3khkc1p7t56ch0ooi1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

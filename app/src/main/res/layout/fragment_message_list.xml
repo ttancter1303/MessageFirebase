@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.messagelist.MessageListFragment"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/txt_current_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current user: "
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/txt_to_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To user: "
+        android:textSize="18sp"
+        android:layout_below="@id/txt_current_user"/>
+
+    <EditText
+        android:id="@+id/edt_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Message content"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/btn_send"/>
+
+    <ImageButton
+        android:id="@+id/btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_send_24"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/edt_content"
+        android:layout_below="@id/txt_to_user" />
+
+</RelativeLayout>
